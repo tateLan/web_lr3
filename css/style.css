@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+header div a {
+    text-decoration: none;
+    color: #79808d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+}
+header div a:hover{
+    color: #3b424d;
+}
+#main_screen{
+    background-color: #54a3da;
+    color: white;
+}
+#main_screen *:not(input){
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+#signup_free{
+    background-color: #ffce54;
+    border-radius: 8px;
+}
+input[value="SIGNUP"][type="submit"] {
+    background-color: #77c344;
+    border: none;
+}
+input[value="SIGNUP"][type="submit"]:hover{
+    background-color: rgb(141, 232, 80);
+    border: none;
+}
+#signup-form input[type='text'] {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+}
+#ll_cloud, #lr_cloud{
+    opacity: 0.7;
+}
+#brands_strip {
+    background-color: #f8f8f8;
+}
+#why_tank_app_text{
+    color: #4c5767;
+}
+#gray_circle {
+    background: #efefef;
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+}
+#green_circle {
+    background: #94e061;
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+}
+#dark_circle {
+    background: #2d394c;
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+}
+#orange_circle {
+    background: #ffce54;
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+}
+.carousel-item {
+    background-color: #f6f6f7;
+}
+#ships_img, #ships_img2, #ships_img3, #ships_img4{
+    opacity: 0.6;
+}
+footer a {
+    color: #79808d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+}
+footer a:hover {
+    color: #79808d;
+    font-family: 'Roboto', sans-serif;
+}
+footer {
+    background-color: #f9f9f9;
+
+}
